@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.login-box, #chatBox {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+}
+#chatBox {
+  height: 300px;
+  overflow-y: scroll;
+  background: #f9f9f9;
+}
+.message {
+  margin: 5px 0;
+}
+.sent { text-align: right; color: green; }
+.received { text-align: left; color: blue; }
